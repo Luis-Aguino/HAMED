@@ -10,15 +10,14 @@
 
 .firtGalery{
     width: 500px;
-    height: 350px;
+    height: 300px;
     border: 3px solid rgb(55, 0, 255);
-    margin: 0px;
-    margin-top: 0%;
-    background-size: 500px 350px;
+    margin: auto;
+    background-size: 500px 300px;
     animation-name: h;
     animation-duration: 16s;
     animation-iteration-count: infinite;
-    position:fixed top 100px; left:20px;
+    
 
 }
 
@@ -66,50 +65,3 @@
     }
     
 }
-
-
-
-.fvarias{
-    width: 500px;
-    height: 350px;
-    border: 3px solid rgb(255, 0, 21);
-    margin: 0px;
-    margin-top: 0%;
-    background-size: 500px 350px;
-    animation-name: h;
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    position:fixed;top:100px; right: 20px;
-
-    
-
-}
-
-.gvarias{
-    width: 500px;
-    height: 350px;
-    border: 3px solid rgb(83, 126, 72);
-    margin: 1px;
-    background-size: 500px 350px;
-    animation-name: h;
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    position:fixed; align-self: flex-end;
-
-}
-
-
-
-.pvarias{
-    width: 500px;
-    height: 350px;
-    border: 3px solid rgb(210, 224, 11);
-    margin: 1px;
-    background-size: 500px 350px;
-    animation-name: h;
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    position: fixed; align-self:flex-end; left: 1072px;
-
-}
-
