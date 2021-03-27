@@ -9,5 +9,107 @@
 }
 
 .firtGalery{
+    width: 500px;
+    height: 350px;
+    border: 3px solid rgb(55, 0, 255);
+    margin: 0px;
+    margin-top: 0%;
+    background-size: 500px 350px;
+    animation-name: h;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    position:fixed top 100px; left:20px;
 
 }
+
+@keyframes h{
+    0%, 30% {
+        background-image: url(1.jpg);
+        
+    }
+    
+    31%, 51% 
+        {background-image: url(2.jpg);
+    
+    }
+        
+    52%, 64% {
+        background-image: url(3.jpg);
+        
+    }
+    65%, 79% {
+        background-image: url(4.jpg);
+    }
+    80%, 91% {
+        background-image: url(5.jpg);
+    }
+    92%, 100% {
+        background-image: url(6.jpg);
+    }
+    0%, 30% {
+        background-image: url(7.jpg);
+    }
+    31%, 51% {
+        background-image: url(8.jpg);
+    }
+    52%, 64% {
+        background-image: url(9.jpg);
+    }
+    65%, 79% {
+        background-image: url(10.jpg);
+    }
+    80%, 91% {
+        background-image: url(11.jpg);
+    }
+    92%, 100% {
+        background-image: url(12.jpg);
+    }
+    
+}
+
+
+
+.fvarias{
+    width: 500px;
+    height: 350px;
+    border: 3px solid rgb(255, 0, 21);
+    margin: 0px;
+    margin-top: 0%;
+    background-size: 500px 350px;
+    animation-name: h;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    position:fixed;top:100px; right: 20px;
+
+    
+
+}
+
+.gvarias{
+    width: 500px;
+    height: 350px;
+    border: 3px solid rgb(83, 126, 72);
+    margin: 1px;
+    background-size: 500px 350px;
+    animation-name: h;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    position:fixed; align-self: flex-end;
+
+}
+
+
+
+.pvarias{
+    width: 500px;
+    height: 350px;
+    border: 3px solid rgb(210, 224, 11);
+    margin: 1px;
+    background-size: 500px 350px;
+    animation-name: h;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    position: fixed; align-self:flex-end; left: 1072px;
+
+}
+
