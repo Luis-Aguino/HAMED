@@ -12,11 +12,11 @@
 }
 
 .firtGalery{
-    width: 400px;
+    width: 300px;
     height: 200px;
     border: 3px solid rgb(55, 0, 255);
     margin: auto;
-    background-size: 500px 300px;
+    background-size: 300px 300px;
     animation-name: h;
     animation-duration: 16s;
     animation-iteration-count: infinite;
@@ -65,6 +65,25 @@
     }
     92%, 100% {
         background-image: url(12.jpg);
+    }
+
+    0%, 30% {
+        background-image: url(13.jpg);
+    }
+    31%, 51% {
+        background-image: url(14.jpg);
+    }
+    52%, 64% {
+        background-image: url(15.jpg);
+    }
+    65%, 79% {
+        background-image: url(16.jpg);
+    }
+    80%, 91% {
+        background-image: url(17.jpg);
+    }
+    92%, 100% {
+        background-image: url(18.jpg);
     }
     
 }
