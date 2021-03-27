@@ -33,7 +33,7 @@
 }
 
 @keyframes h{
-    0%, 15% {
+    1%, 15% {
         background-image: url(1.jpg);
     
     }
@@ -98,7 +98,7 @@
 
 @keyframes m{
 
-    0%, 30% {
+    1%, 30% {
         background-image: url(13.jpg);
     }
     31%, 55% {
